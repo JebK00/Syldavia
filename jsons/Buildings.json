@@ -1,25 +1,13 @@
 [
 	{
-		"name": "Holodeck",
-		"replaces": "Circus Maximus",
-		"uniqueTo": "Aliens",
-		"cost": 480,
+		"name": "Space Center of Zmyhlpathes",
+		"replaces": "Apollo Program",
+		"uniqueTo": "Syldavia",
+		"cost": 700,
 		"happiness": 12,
 		"culture": 12,
 		"science": 12,
-		"maintenance": 96,
-		"isNationalWonder": true,
-		"requiredBuildingInAllCities": "Colosseum",
-		"requiredTech": "Horseback Riding"
-	},
-	{
-		"name": "Breeders",
-		"replaces": "Aqueduct",
-		"uniqueTo": "Aliens",
-		"cost": 80,
-		"hurryCostModifier": 160,
-		"happiness": 2,
-		"uniques": ["40% of food is carried over after a new citizen is born"],
-		"requiredTech": "Engineering"
+		"uniques": ["Enables construction of Spaceship parts", "Triggers a global alert upon completion", "Hidden when [Scientific] Victory is disabled", "Cannot be hurried"],
+		"requiredTech": "Rocketry"
 	}
 ]
